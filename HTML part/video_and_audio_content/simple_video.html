@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Video Example</title>
+</head>
+<body>
+    <!-- controls -->
+    <!-- 浏览器提供的控件界面 -->
+    <video src="rabbit320.webm" controls>
+        <p>你的浏览器不支持 HTML5 视频。可点击<a href="rabbit320.mp4">此链接</a>观看</p>
+    </video>
+    
+    <!-- 多源媒体支持 -->
+    <video controls>
+        <source src="rabbit320.webm" type="video/webm">
+        <source src="rabbit320.mp4" type="video/mp4">
+        <p>你的浏览器不支持 HTML5 视频。可点击<a href="rabbit320.mp4">此链接</a>观看</p>
+    </video>
+
+    <video controls width="400" height="400" autoplay loop muted poster="poster.png">
+        <source src="rabbit320.webm" type="video/webm">
+        <source src="rabbit320.mp4" type="video/mp4">
+        <p>你的浏览器不支持 HTML5 视频。可点击<a href="rabbit320.mp4">此链接</a>观看</p>
+    </video>
+</body>
+</html>
