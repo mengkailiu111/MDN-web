@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>文本格式</title>
+</head>
+
+<body>
+    <!-- 描述列表 -->
+    <dl>
+        <dt>培根</dt>
+        <dd>整个世界的粘合剂</dd>
+        <dt>鸡蛋</dt>
+        <dd>一块蛋糕的粘合剂</dd>
+        <dt>咖啡</dt>
+        <dd>一种浅棕色的饮料</dd>
+        <dd>可以在清晨带来活力</dd>
+    </dl>
+
+    <!-- 块引用 -->
+    <!-- 浏览器在渲染块引用时默认会增加缩进，作为引用的一个指示符 -->
+    <p>The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML Block
+            Quotation Element</em>) indicates that the enclosed text is an extended quotation.</p>
+
+    <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+        <p>The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML Block
+                Quotation Element</em>) indicates that the enclosed text is an extended quotation.</p>
+    </blockquote>
+
+    <!-- 行内引用 -->
+    <p>The quote element - <code>&lt;q&gt;</code> - is <q cite="">intended for short quotations that don't require
+            paragraph breaks.</q></p>
+
+    <!-- 引文 -->
+    <p>According to the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+            <cite>MDN blockquote page</cite></a>:
+    </p>
+
+    <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+        <p>The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML Block
+                Quotation Element</em>) indicates that the enclosed text is an extended quotation.</p>
+    </blockquote>
+
+    <p>The quote element — <code>&lt;q&gt;</code> — is <q
+            cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">intended
+            for short quotations that don't require paragraph breaks.</q> -- <a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">
+            <cite>MDN q page</cite></a>.</p>
+
+    <!-- 缩略语 -->
+    <p>我们使用 <abbr title="超文本标记语言（Hyper text Markup Language）">HTML</abbr> 来组织网页文档。</p>
+
+    <!-- 上下标 -->
+    <p>咖啡因的化学方程式是 C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>。</p>
+    <p>如果 x<sup>2</sup> 的值为 9，那么 x 的值必为 3 或 -3。</p>
+
+    <!-- 时间 -->
+    <time datetime="2016-01-20">20 January 2016</time>
+</body>
+
+</html>
