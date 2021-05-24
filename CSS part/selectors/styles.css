@@ -1,0 +1,24 @@
+span {
+    background-color: yellow;
+}
+
+/* 在使用选择器列表时，如果任何一个选择器无效，整条规则都会被忽略 */
+strong,
+em {
+    color: rebeccapurple;
+}
+
+/* 
+类型选择器
+类选择器
+ID选择器
+标签属性选择器
+a[title] {}
+a[href="https://example.com"] {}
+伪类
+a:hover {}
+伪元素
+p::first-line {}
+运算符
+article > p {} 
+*/

@@ -1,0 +1,39 @@
+/* 
+CSS选择器
+- 级联：同等级规则，由定义顺序决定，后定义的规则决定最终结果
+- 专用：描述更具体的规则起作用（如类选择器）
+*/
+
+h1 {
+    color: red;
+}
+
+p {
+    color: green;
+}
+
+li {
+    /* list-style-type: none; */
+    list-style-type: square;
+}
+
+.special {
+    color: orange;
+    font-weight: bold;
+}
+
+li em {
+    color: rebeccapurple;
+}
+
+a:link {
+    color: pink;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    text-decoration: none;
+}
