@@ -1,0 +1,31 @@
+.a {
+	background-image: url(balloons.jpg);
+
+	/* 调整图像大小 */
+	/* 浏览器使图像足够大，使它完全覆盖盒子区，同时仍然保持其高宽比 */
+	/* background-size: cover; */
+	/* 浏览器使图像的大小适合在盒子内。如果图像的长宽比与盒子的长宽比不同，则可能在图像
+    的上下左右任何一边出现间隙 */
+	/* background-size: contain; */
+}
+
+.b {
+	/* 如果除了背景图像外，还指定了背景颜色，则图像显示在颜色的顶部 */
+	background-image: url(star.png);
+	background-color: red;
+
+	/* 控制图像的平铺行为 */
+	background-repeat: no-repeat;
+}
+
+.box {
+	border: 5px solid black;
+	border-radius: 10px;
+	background-image: url(balloons.jpg);
+	background-size: contain;
+}
+
+h2 {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+}
